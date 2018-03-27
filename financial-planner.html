@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Savings Assistance</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
     <header>
@@ -83,4 +84,9 @@
     </div>
 
   </body>
+  <script>
+    $(".target").click(function(){
+      $(this).toggleClass('target-clicked')
+    });
+  </script>
 </html>

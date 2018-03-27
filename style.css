@@ -68,3 +68,7 @@
 .target:hover {
   background-color: #9bf442;
 }
+
+.target-clicked {
+  background-color: #42f1f4;
+}
