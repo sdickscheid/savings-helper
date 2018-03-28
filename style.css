@@ -19,7 +19,8 @@
 .toolbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
   width: 80%;
   margin: 0 auto;
   padding: 1%;
@@ -28,19 +29,18 @@
   background: linear-gradient(white, #cccccc);
 }
 
-.target-selector {
-  align-self: flex-start;
+.selector-text {
+  margin-right: 1%;
 }
 
-.target-goal,
-.target-attained {
-  align-self:flex-end;
+.push-right {
+  margin-left: auto;
 }
 
 .target-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 80%;
   background-color: #aaaaaa;
@@ -61,14 +61,14 @@
   padding: 2%;
   margin-bottom: 1%;
   margin-right: 1%;
-  min-width: 20px;
+  min-width: 100px;
   max-height: 5%;
 }
 
 .target:hover {
-  background-color: #9bf442;
+  background-color: #42f1f4;
 }
 
 .target-clicked {
-  background-color: #42f1f4;
+  background-color: #9bf442;
 }
