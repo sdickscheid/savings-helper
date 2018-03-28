@@ -21,7 +21,7 @@
       <h4 class="selector-text">Choose your annual savings goal: </h4>
       <select class="left" autofocus>
         <option value="1">$500</option>
-        <option value="2" default>$1000</option>
+        <option value="2" selected>$1000</option>
         <option value="3">$1500</option>
         <option value="4">$2000</option>
         <option value="5">$2500</option>
@@ -94,9 +94,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
-  <script>
-    $(".target").click(function(){
-      $(this).toggleClass('target-clicked')
-    });
-  </script>
+  <script src="app.js"></script>
 </html>
